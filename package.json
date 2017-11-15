@@ -1,0 +1,11 @@
+{
+	"name":"catalogapi",
+	"version":"1.0.0",
+	"dependencies":{
+		"express":"*",
+		"body-parser":"*",
+		"mongojs":"*"
+	},
+	"author":"Aditya Wagholikar"
+
+}
