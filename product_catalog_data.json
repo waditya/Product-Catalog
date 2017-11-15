@@ -1,0 +1,106 @@
+db.products.insert({
+		name:"Microsoft - Surface Pro 4 - 12.3 inch - 128GB - Intel Core i5 - Silver",
+		category: "Electronics",
+		model: "CR5-00001",
+		sku: "4523600",
+		img: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4523/4523600_sd.jpg;maxHeight=550;maxWidth=642",
+		price:799.99,
+		pickup_available:true,
+		description:"Use the 12.3 inch HD touch screen and the Surface Pen to navigate Web pages, write and upload content and play games. The kickstand makes it easy to adjust Surface Pro 4 for hands-free viewing or typing, and Wi-Fi lets you connect to the Internet quickly",
+		release_date: ISODate("2015-01-09"),
+		specifications: {
+			height:"0.33 inches",
+			width:"11.5 inches",
+			depth:"7.93 inches",
+			weight:"27.5 ounces",
+			battery_life:"9 hours",
+			display_type:"LCD",
+			touch_screen: true,
+			memory: "2gb",
+			processor_type: "Intel"
+			},
+		reviews: [
+			{
+				subject: "Great Tablet!",
+				body: "Even for someone like me (who isn't tech savvy at all), it's easy to use",
+				rating: "4.5",
+				user: "someuser01",
+				date: ISODate("2015-02-10"),
+				would_recommend: true
+			},
+			{
+				subject: "Mixed Review!",
+				body: "Makes grum sound when running for a long time. Overall, pretty average product",
+				rating: "3.0",
+				user: "someuser02",
+				date: ISODate("2015-04-10"),
+				would_recommend: false
+			},
+			{
+				subject: "Pathetic device!",
+				body: "Not worth the money. Poor screen quality. Battery heats up fast. Had to buy new one withing 4 months.",
+				rating: "1.5",
+				user: "someuser03",
+				date: ISODate("2015-04-10"),
+				would_recommend: false
+			}
+			
+		],
+		protection_services:['damage', 'battery', 'power']
+		
+	}
+)
+
+db.products.insert({
+		name:"Samsung - Galaxy S8 64GB - Midnight Black",
+		category: "Electronics",
+		model: "SM-G950UZKAVZW",
+		sku: "5789008",
+		img: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5789/5789008_sd.jpg;maxHeight=1000;maxWidth=1000",
+		price:756.00,
+		brand: "Samsung",
+		pickup_available:true,
+		description:"Enjoy UHD video on the road with this advanced Samsung Galaxy S8, which comes with a Super AMOLED 5.8-inch screen. Equipped with active noise-canceling technology, the microphone in this device enables crystal-clear calling while you’re on the road. Capture UHD images automatically with the 12MP dual camera in this Samsung Galaxy S8, which has an advanced touch focus feature.",
+		release_date: ISODate("2017-01-01"),
+		specifications: {
+			height:"5.86 inches",
+			width:"2.68 inches",
+			depth:"0.31 inches",
+			weight:"5.47 ounces",
+			battery_life:"9 hours",
+			display_type:"Super AMOLED HD",
+			touch_screen: true,
+			memory: "16gb",
+			processor_type: "Qualcomm Snapdragon 835 processor"
+			},
+		reviews: [
+			{
+				subject: "Great",
+				body: "I've had the phone for nearly a month now and I love it. I probably didn't need to upgrade, as my Galaxy S5 was perfectly functional although seemed to be running slower. I'm not much of a phone-tographer, but the cameras seem to be a big improvement over the S5. Camera functions too, feel more intuitive and quicker. Im not a huge fan of the curved edges. Aside from allowing more comfort for the hand, the edge feels more like a gimmick than anything. It essentially disappears once the phone is in a case, which is almost a necessity considering the price. I understand some might find it annoying that the fingerprint sensor is now on the back of the phone, but I haven't yet gotten onboard with biosecurity technology. I still like my 4 digit PIN, so I can't speak to the iris scanner or facial recognition either. I was worried about the absence of a tactile home button, but it hasn't been an issue. Bixby, like biosecurity, is something I haven't found a use for yet. It's exclusive button is very close to the volume down button, which can be mildly aggravating if you are relying on touch alone to minimize sound. Speaking of sound, the speaker is now on the bottom of the phone as opposed to the back. As someone who watches/listens to a good deal of media on my phone, I find this change from my S5 a great improvement. As for battery life, I've been extremely satisfied so far. I was very happy with my S5's battery life and I find that my S8 lasts considerably longer. I am slightly nervous about not having access to my battery, though. Over the two and a half years I used my S5 I did have to remove the battery a handful of times to reset the phone due to unresponsiveness or glitches. Another improvement over the S5 is lack of a plastic back, which made that phone feel cheap. Conversely, the higher end metal and glass back of this phone make it feel incredibly fragile. It's too bad that something so sleek and well-designed requires a case to keep it from scratches, scuffs and cracks. The advertised infinity screen is non-existent with the addition of even the slimmest case. Lastly, I really like the included headphones in comparison to those of the S5. They are a little more substantial in the ear, keeping them from popping out and also allowing a good deal of noise-cancellation. The cord feels to be made of a sturdy metal mesh that comes off as rugged and long-lasting.",
+				rating: "5",
+				user: "Chrisser5",
+				date: ISODate("2015-05-20"),
+				would_recommend: true
+			},
+			{
+				subject: "Good....but be careful with the screen!!!",
+				body: "So I was really excited to get this phone. It looks great, it's fast, the call clarity is superb, the screen size is amazing, and the camera is top notch. BUT, the screen has already cracked. The phone has not been dropped yet, and I'd like to think I take good care of it. I noticed a small spec in the screen one afternoon, and it got worse over the next few days, and now it runs up an down the entire screen. I honestly have no idea what I did to make this happen. I guess now I am stuck with it for 24 more months. Luckily, none of the functionality seems lost, so I am still enjoying it for the most part",
+				rating: "4.0",
+				user: "Philster",
+				date: ISODate("2015-06-20"),
+				would_recommend: true
+			},
+			{
+				subject: "Good but really weird",
+					body: "As always, the Galaxy S8 is a step forward for mobile technology, though some of the choices they made are rather bizarre. What I do admire is the new Super AMOLED display, which works well in almost any lighting situation without manually adjusting your brightness. I also like the other typical things, like external memory, good screen size, and 4K resolution.Unfortunately, as I mentioned previously, there are a few things I am not totally comfortable with. For Instance, the Edge Screen has been a nuisance while attempting to type until I had to turn it off. The Bixby commands are way too easy to trigger. For example, if you are trying to adjust the volume of something, your finger slips and you turn Bixby on. Swipe left on your home screen too much, Bixby turns on. Do not get me wrong, I like Bixby, I just wish that it wasn't so intrusive.Finally, for one of my biggest gripes, they changed the aspect ratio of the phone. You see, instead of expanding in both dimensions, the Galaxy S8 decided to expand only vertically. While this means that it can better fit in places like cup holders or pants pockets, it also means that they changed the aspect ratio to 18 is to 9. I wouldn't have as much of an issue with this if more things were integrated with that. A lot of apps are stuck in 16:9, and changing that could break the application.This means that 11% of the screen is wasted on black space. This is something I hope they go back on with the Galaxy.Overall, I think that the Galaxy S8 is just okay, which is bad for a Samsung.",
+				rating: "3.0",
+				user: "Holljf",
+				date: ISODate("2015-05-27"),
+				would_recommend: false
+			}
+			
+		],
+		protection_services:['damage', 'battery', 'power']
+		
+	}
+)
